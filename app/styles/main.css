@@ -1,0 +1,236 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Light.otf);
+} 
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.otf);
+    font-weight: normal;
+} 
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Hairline.otf);
+} 
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;  
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 84px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+ 
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+
+/***************/
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+.fm-header{
+  background: url(../images/im_home.jpg);
+  background-size: cover;
+  background-position: center center;
+  height:660px;
+  padding-top: 24px;
+}
+
+.fm-logo{
+  height: 71px;
+  padding: 0;
+}
+
+.fm-header .fm-user-access{
+  font-family: "Georgia";
+  font-size: 14px;
+  font-style: italic;
+  color: #fff;
+}
+
+.fm-header .fm-user-access a{
+  text-decoration: none;
+}
+
+.fm-header .fm-user-access a#fm-user-login{
+  color: #0dcf76;
+}
+
+.fm-header .fm-user-access a#fm-user-register{
+  color: #2275bb;
+}
+
+.fm-header-nav{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.fm-h1{
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-weight: Bold;
+  font-size: 72px;
+  color: #FFF;
+  letter-spacing: -1.08px;
+  margin: 0;
+}
+
+.fm-h2{
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: #2275bb;
+  margin: 0;
+}
+
+.fm-h4{
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #0dcf76;
+}
+
+.fm-header .fm-header-content p{
+  font-family: "Georgia";
+  font-style: italic;;
+  font-size: 32px;
+  color: #FFF;
+}
+
+.fm-content{
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #a0a0a0;
+  line-height: 24px;
+}
+
+.fm-read-more, .fm-read-more:hover, .fm-read-more:focus {
+  font-family: "Georgia";
+  font-style: italic;
+  font-size: 16px;
+  color: #0dcf76;
+  text-decoration: none;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.fm-content .fm-features-desc{
+  width: 90%;
+  margin-top: 68px;
+  margin-bottom: 68px;  
+}
+
+.fm-content .fm-features-desc strong{
+  font-weight: bold;
+  color: #727272;
+}
+
+.fm-home-key-features{
+  height: 468px;
+  background-color: #f6f6f6;
+  border-top: 1px solid #dadada;
+}
+
+.fm-home-clients{
+  height: 136px;
+}
+
+.fm-home-newsletter{
+  height: 326px;
+  background-color: #2275bb;
+}
+
+.fm-home-trial{
+  height: 194px;
+  background-color: #0dcf76;
+}
+
+.fm-home-slider{
+  width: 600px;
+}
+
+.fm-card-feature{
+  margin-top: 100px;
+}
+
+.fm-card-feature .thumbnail{
+  background-color: transparent;
+  border:none;
+}
+
